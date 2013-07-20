@@ -1,0 +1,26 @@
+This is intended to be the website for TMS4NTR, a research group at the University of Tennessee.
+
+The format of the website is based on the clean template provided by the Univeristy of Tennessee.
+RECULTANT WEBMASTER:
+  murffer@utk.edu
+
+FILES:
+  The following HTML files are used:
+  - chem.html                   - Chemistry Section of website. Content from Andrew, John, Rohit and Stephen
+  - index.html                  - Main page.  Content from ARI Abstract
+  - participants.html           - Participants in the project.  Content from Dr. Miller
+  - pub.html                    - Publications of the group.
+  - radCharacterization.html    - Radiation characterization.  Content from Matthew
+  - simulation.html             - Simulation work.  Content from Matthew
+  
+  The following scripts are used:
+  - createWebsiteArhive.sh - creates and archive of the all of the files used for the website
+
+HISTORY:
+  - It is thought that Alex Green initially started the website
+  - Once Alex Green left, Matthew Urffer took over the website, and rearranged
+    the content
+  - In July 2013 there were efforts to update the website, which involved 
+    changing to use the univerities templates and style sheets.
+  
+

@@ -1,0 +1,451 @@
+<html>
+
+<head>
+<meta name=Title content="">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\FF2D\FF33 \30B4\30B7\30C3\30AF";}
+@font-face
+	{font-family:"\FF2D\FF33 \30B4\30B7\30C3\30AF";}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+h1
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:16.0pt;
+	font-family:Calibri;
+	color:#345A8A;
+	font-weight:bold;}
+h2
+	{margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:13.0pt;
+	font-family:Calibri;
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	color:#4F81BD;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Lucida Grande";}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:10.0pt;
+	font-family:Times;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Lucida Grande";}
+span.BalloonTextChar
+	{font-family:"Lucida Grande";}
+p.HeadingA, li.HeadingA, div.HeadingA
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.HeadingC, li.HeadingC, div.HeadingC
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+p.Paragraph, li.Paragraph, div.Paragraph
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-indent:.25in;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+span.Heading1Char
+	{font-family:Calibri;
+	color:#345A8A;
+	font-weight:bold;}
+span.DocumentMapChar
+	{font-family:"Lucida Grande";}
+span.Heading2Char
+	{font-family:Calibri;
+	color:#4F81BD;
+	font-weight:bold;}
+span.msoIns
+	{text-decoration:underline;
+	color:teal;}
+.MsoChpDefault
+	{font-family:Cambria;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in .75in 1.0in .75in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in .75in 1.0in .75in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<h1>Overview</h1>
+
+<p class=MsoNormal>The simulation efforts carried out by the University of
+Tennessee’s nuclear engineering department in support of this research consist
+of detailed energy deposition modeling with the GEANT4 toolkit to understand
+the mechanisms and optimize film thickness along with MCNPX calculations for
+large scale detector design and performance.&nbsp;&nbsp; Two example simulation
+projects are described; one in the optimization of the RPM8 with genetic
+algorithms and another using the simulated energy deposition to calculate the
+optimal film thickness.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Energy Deposition Simulation</h1>
+
+</div>
+
+<b><span style='font-size:16.0pt;font-family:Calibri;color:#345A8A'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<div class=WordSection2>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph;
+text-indent:0in'>Neutron detectors often utilize a material doped with an
+isotope of <span class=msoIns><ins cite="mailto:Erica"
+datetime="2013-03-10T20:40">a </ins></span>large thermal cross section for
+absorption, such as <sup>3</sup>He, <sup>6</sup>Li or <sup>10</sup>B. A
+possible replacement technology being investigated is <sup>6</sup>Li (thermal
+cross section of 940 barns) embedded in a scintillating polymer matrix. The
+difference in the energy deposition in the material from charged particles
+(from the products of a neutron absorption) and from photon interactions
+introduces an opportunity to exploit the difference in energy deposition in
+order to maximize the discrimination between neutron and photon interactions in
+a detector.</p>
+
+<p class=Paragraph style='text-indent:0in'>&nbsp;</p>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph'>The
+energy deposition of neutrons and gammas was investigated for polymeric films
+containing <sup>6</sup>LiF of thickness ranging from 15 microns to 1 cm. The
+pulse height spectra of these samples is measured on site from a moderated
+neutron source and a <sup>60</sup>Co source. Simulations were completed using
+GEANT4, a Monte Carlo transport toolkit [3,4]. GEANT4 was chosen for it<span
+class=msoIns><ins cite="mailto:Erica" datetime="2013-03-10T20:53">s</ins></span>
+ability to <span class=msoIns><ins cite="mailto:Erica"
+datetime="2013-03-10T20:53">perform </ins></span>detailed tracking of the
+secondary electrons produced in a cascade, as well as it<span class=msoIns><ins
+cite="mailto:Erica" datetime="2013-03-10T20:54">s</ins></span> ability for
+light transport (a future aim of this project). The measurements were then used
+to validate and bench mark the simulation.</p>
+
+<p class=Paragraph>&nbsp;</p>
+
+<h2>Detector Simulation</h2>
+
+<p class=Paragraph style='text-indent:0in'><b>&nbsp;</b></p>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph'>The
+detector geometry was simulated as a single layer of neutron absorbing material
+mounted atop of a non-scintillating material. The initial events where chosen
+by setting up a particle gun for 0.025 eV neutrons upon the detector and for
+both gammas resulting from a <sup>60</sup>Co decay. The user of the GEANT4
+toolkit is responsible for selecting the proper physics processes to model.
+Thus, extensive use of <span style='font-family:"Courier New"'>G4ModularPhysicsList</span>
+was employed to handle the assigning of the physics processes to each particle
+in the correct order. The physics lists chosen for this simulation are listed
+below:</p>
+
+<p class=Paragraph style='margin-left:.5in;text-align:justify;text-justify:
+inter-ideograph;text-indent:-.25in'><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Courier New"'>G4EmStandardPhysics</span> Electromagnetic
+physics defines the lepton processes of multiple scattering, electron
+ionization, and electron bremsstrahlung. </p>
+
+<p class=Paragraph style='margin-left:.5in;text-align:justify;text-justify:
+inter-ideograph;text-indent:-.25in'><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Courier New"'>G4EmLivermorePhysics</span> Livermore physics
+extends <span style='font-family:"Courier New"'>EMStandardPhyiscs</span> down
+to low (250 eV) energies based on the Livermore data sets. The processes
+extended are the photoelectric effect, Compton scattering, Rayleigh scattering,
+gamma conversion, ionization and bremsstrahlung. </p>
+
+<p class=Paragraph style='margin-left:.5in;text-align:justify;text-justify:
+inter-ideograph;text-indent:-.25in'><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Courier New"'>HadronPhysicsQGSP_BERT_HP</span> Hadronic
+physics are included to model the nuclear interactions.&nbsp; Once a hadron has
+an energy of 20 MeV the high precision, ENDFB/VI data driven cross section
+models are applied.</p>
+
+<p class=Paragraph style='margin-left:.5in;text-align:justify;text-justify:
+inter-ideograph;text-indent:-.25in'><span style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-family:"Courier New"'>G4IonPhysics</span> Finally, to handle the
+transport of the charged ions resulting from an <sup>6</sup>Li(n,<span
+style='color:black'>&#945;</span>)<sup>3</sup>He interaction the&nbsp; <span
+style='font-family:"Courier New"'>G4IonPhysics</span> list was used.</p>
+
+<p class=Paragraph>&nbsp;</p>
+
+<h2>RESULTS AND AnalsyIS</h2>
+
+<p class=Paragraph>&nbsp;</p>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph'>It
+is well established that the pulse height of a radiation event is proportional
+to the energy deposition of the event. Thus, the validity of the GEANT4
+simulation can be determined by comparing the spectra shapes of measured
+spectra to simulated energy deposition. This was quantified by computing the
+average energy deposition and the average pulse height. In general, good
+agreement was observed. The energy deposition for neutrons and gammas was
+calculated in thin polymeric films of thickness from 15 microns to 1 cm with
+the GEANT4 toolkit and compared to the measured spectra. The average energy
+deposited was computed for each thickness and normalized by the incident energy
+for gammas or the Q-value of the reaction for neutrons, and is presented in </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span><img width=506 height=380 id="Picture 5"
+src="SimMethods_files/image001.png"
+alt="Description: Macintosh HD:Users:murffer:Desktop:EDepSummary.png"></span></p>
+
+<p class=MsoCaption>Fig. <span>1</span> &#8211; Average Energy Deposition as a
+function of thickness for neutrons and co-60 gammas.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Layered Detector Simulations</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=Paragraph>&nbsp;</p>
+
+<p style='margin:0in;margin-bottom:.0001pt;text-align:justify;text-justify:
+inter-ideograph;text-indent:.25in'><span style='font-family:"Times New Roman"'>Genetic
+algorithms provide a search method analogous to biological evaluation. Rather
+than following a gradient of a response function, genetic algorithms generate
+possible hypothesis by repeatedly applying genetic operators (mutation and
+recombination) to the best currently known hypothesis for the generation of
+subsequent populations of hypothesis. In this way the search space of candidate
+hypothesis (possible detector designs) is searched to identify the best
+hypothesis; the design that uses the least amount of <sup>6</sup>Li while
+meeting the criteria. The genetic algorithm typically consist of four tasks:
+creating an initial population, evaluating that populations fitness, selecting
+members of the current population to breed, and then applying genetic operators
+to the selected members to breed the new population. This is completed until either
+a maximum generation is reached or the desired fitness is achieved.&nbsp; For
+this problem the geometry was enumerated as a finite combination of absorber
+and moderating layers, represented as a bit string representation in which the
+geometry can be thought as a sequence of moderator (indicated by a 0) and
+detector layers (indicated by a 1).</span></p>
+
+<p class=HeadingA>&nbsp;</p>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph'>The
+optimal geometry found by the genetic algorithm are shown in Table 1, with an
+MCNP rendering in Figure1 for a 26 length genome.&nbsp; As genetic algorithms
+have a random component, they will often not converge to exactly the same
+result, as shown by the repeated genomes of length 13 in Table 1. Proper
+placement of the neutron absorbing layers can greatly reduce the number of
+layers needed. It is necessary to thermalize the flux in order to effectively
+utilize the high thermal cross section of <sup>6</sup>Li. After a detector
+layer the thermal flux will have been significantly depleted, and thus it is
+necessary to moderate the neutron flux before another detector layer. A simple
+repeating layer design does not allow for the efficient usage of the neutron
+absorber. For example, it is necessary to build up the thermal flux with
+moderation in order to effectively utilize the large thermal cross section of <sup>6</sup>Li,
+making a strictly alternating layered design inefficient. After the populations
+converged, it was found that a significant reduction in the number of layers is
+possible.&nbsp; </p>
+
+<p class=Paragraph style='text-align:justify;text-justify:inter-ideograph'>&nbsp;</p>
+
+<p class=MsoNormal><span><img width=493 height=494 id="Picture 6"
+src="SimMethods_files/image002.png"
+alt="Description: Macintosh HD:Users:murffer:Desktop:RPM8_Diagrams_MCNPXRender_26Opt.png"></span></p>
+
+<p class=MsoCaption>Fig. <span>2</span> - Optimal Geometry for a 26 length Genome.
+The total coutn rate was 4.2 cps per ng Cf-252</p>
+
+<p class=HeadingC><span style='font-style:normal'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=245 colspan=4 valign=top style='width:3.4in;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>Table I. Optimized Detector Performance</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=82 valign=top style='width:81.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>Geometry Genome&nbsp; </p>
+  </td>
+  <td width=50 valign=top style='width:49.5pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>Mass <sup>6</sup>Li </p>
+  </td>
+  <td width=45 valign=top style='width:45.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Count Rate<i><sup><span style='color:black;background:
+  transparent'>†</span></sup></i></p>
+  <p class=HeadingC>&nbsp;</p>
+  </td>
+  <td width=68 valign=top style='width:.95in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC><span style='font-style:normal'>Count rate per mass <sup>6</sup>Li
+  <sup><span style='color:black;background:transparent'>†</span></sup> </span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=82 valign=top style='width:81.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>00010010000000</p>
+  </td>
+  <td width=50 valign=top style='width:49.5pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>16.75</p>
+  </td>
+  <td width=45 valign=top style='width:45.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>3.88</p>
+  </td>
+  <td width=68 valign=top style='width:.95in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>0.232</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=82 valign=top style='width:81.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>00100010000000</p>
+  </td>
+  <td width=50 valign=top style='width:49.5pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>16.75</p>
+  </td>
+  <td width=45 valign=top style='width:45.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>3.90</p>
+  </td>
+  <td width=68 valign=top style='width:.95in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>0.233</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=82 valign=top style='width:81.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>00100100000000</p>
+  </td>
+  <td width=50 valign=top style='width:49.5pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>16.75</p>
+  </td>
+  <td width=45 valign=top style='width:45.0pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>3.87</p>
+  </td>
+  <td width=68 valign=top style='width:.95in;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=HeadingC>0.231</p>
+  </td>
+ </tr>
+ <tr style='height:11.65pt'>
+  <td width=82 valign=top style='width:81.9pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
+  <p class=HeadingC>00001010001000100000000000</p>
+  </td>
+  <td width=50 valign=top style='width:49.5pt;border:none;padding:0in 5.4pt 0in 5.4pt;
+  height:11.65pt'>
+  <p class=HeadingC>16.75</p>
+  </td>
+  <td width=45 valign=top style='width:45.0pt;border:none;padding:0in 5.4pt 0in 5.4pt;
+  height:11.65pt'>
+  <p class=HeadingC>4.20</p>
+  </td>
+  <td width=68 valign=top style='width:.95in;border:none;padding:0in 5.4pt 0in 5.4pt;
+  height:11.65pt'>
+  <p class=HeadingC>0.251</p>
+  </td>
+ </tr>
+</table>
+
+<p class=HeadingC><sup><span style='font-size:8.0pt;color:black;background:
+transparent;font-style:normal'>†</span></sup><span style='font-size:8.0pt;
+color:black;background:transparent;font-style:normal'>Counts rates are cps per
+ng 252Cf for the entire detector with the detector and source configured as
+specified by PNNL.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
